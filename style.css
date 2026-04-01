@@ -196,4 +196,21 @@ body{
         font-size: 16px;
     }
 
+        header{
+        padding: 5px 10px;
+    }
+
+    body{
+        margin-top: 100px;
+    }
+
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .direita_header{
+        display: none;
+    }
+
 }
