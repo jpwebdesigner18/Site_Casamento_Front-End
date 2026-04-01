@@ -70,6 +70,7 @@ h1, h2{
 }
 
 header{
+    height: 100px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
@@ -146,7 +147,6 @@ body{
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
     ), url(imagens/fundo_casamento.jpg);
-    margin-top: 180px;
     background-size: cover;
     background-position: center;
 }
@@ -185,9 +185,6 @@ body{
         width: 100%;
     }
 
-    body{
-        margin-top: 100px;
-    }
 
     .container{
         flex-direction: row;
@@ -220,6 +217,10 @@ body{
         flex-direction: column;
         text-align: center;
         padding: 30px;
+    }
+
+    header{
+        height: 70px;
     }
 
     .imagem_direita{
